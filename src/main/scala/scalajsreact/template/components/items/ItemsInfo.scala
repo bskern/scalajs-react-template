@@ -7,7 +7,7 @@ object ItemsInfo {
 
   val component = ReactComponentB.static("ItemsInfo",
     <.div(" Items Root Page  ")
-  ).buildU
+  ).build
 
   def apply() = component()
 }

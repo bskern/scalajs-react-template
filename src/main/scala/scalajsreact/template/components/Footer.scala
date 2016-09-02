@@ -10,7 +10,7 @@ object Footer {
     <.div(^.borderBottom := "1px solid grey", ^.padding := "0px"),
     <.p(^.paddingTop := "5px", "Built using scalajs/scalajs-react/scalacss")
     )
-  ).buildU
+  ).build
 
   def apply() = component()
 }

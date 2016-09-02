@@ -7,7 +7,7 @@ object Item1Data {
 
   val component = ReactComponentB.static("Item1",
     <.div("This is Item1 Page ")
-  ).buildU
+  ).build
 
   def apply() = component()
 }
