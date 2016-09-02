@@ -76,5 +76,5 @@ workbenchSettings
 
 bootSnippet := "ReactApp().main();"
 
-updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
+refreshBrowsers <<= refreshBrowsers.triggeredBy(fastOptJS in Compile)
 
